@@ -1,0 +1,20 @@
+version: '2.0'
+
+services:
+   wordpress:
+     image: sabrina:wordpress
+     ports:
+       - "8031:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: wordpress:8031
+       WORDPRESS_DB_HOST: 172.23.0.2:3306
+       WORDPRESS_DB_NAME: sabrina
+       WORDPRESS_DB_USER: root
+       WORDPRESS_DB_PASSWORD: somewordpress
+     networks:
+       - dacs2018
+networks:
+  dacs2018:
+    external:
+       name: dacs2018

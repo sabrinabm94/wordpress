@@ -5,7 +5,7 @@ html, body {
 footer, header, main, html, body, input, textarea, .ct-cont, .container, .content  {
 	width: 100%;
 }
-html, body, main, .ct-cont, .container, .content {
+html, body, .ct-cont, .container, .content {
 	height: 100%;
 }
 input[type=checkbox], input[type=radio] {
@@ -45,45 +45,4 @@ a, a:link, a:hover, a:active, a:visited {
 }
 .container, .content {
 	margin: auto;
-}
-.ctY, .ctX, .ctXY {
-	position: absolute; 
-}
-.ctY {
-	top: 50%;
-	transform: translateY(-50%);
-}
-.ctX {
-	left: 50%;
-	transform: translateX(-50%);
-}
-.ctXY {
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.ct-cont {
-	display: table;
-}
-.ct-obg { 
-	vertical-align: middle;
-	display: table-cell;
-}
-input {
-	height: 40px;
-}
-.bg {
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-@media(max-width: 1024px) {
-	.hide-mobile {
-		display: none;
-	}
-}
-@media(min-width: 1025px) {
-	.hide-desk {
-		display: none;
-	}
 }
