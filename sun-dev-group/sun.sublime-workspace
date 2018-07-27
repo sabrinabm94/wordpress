@@ -1,0 +1,206 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group"
+	],
+	"file_history":
+	[
+		"/C/Users/sabri/Downloads/web.xml",
+		"/C/Users/sabri/Downloads/pom.xml",
+		"/C/Users/sabri/OneDrive/Documentos/workspace/java_api_rest/src/main/webapp/web.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/conf/context.xml",
+		"/C/xampp/htdocs/repositores/php/templates/object-oriented.php",
+		"/C/xampp/htdocs/repositores/php/templates/post.php",
+		"/C/xampp/htdocs/repositores/java/basic/clock/Main.java",
+		"/C/xampp/htdocs/repositores/java/basic/clock/Clock.java",
+		"/C/xampp/htdocs/repositores/java/object_oriented/semaphore/Semaforo.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/stack/others/PalindromeStack.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/stack/others/Stack.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/others/ElementoDeque.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/others/ElementoFila.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/others/Exercicios.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/others/FilaDinamica.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/stack/others/InverseStack.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_split/Element.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_split/Deque.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_split/EmptyListException.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_split/Main.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_generics_lambda_callback/Deque.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_generics_lambda_callback/Main.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_generics_lambda_callback/EmptyListException.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_generics_lambda_callback/Element.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/queue/deque_circular_generics_lambda_callback/TestDeque.java",
+		"/C/xampp/htdocs/repositores/java/data-structure/stack/staticstack/Main.java",
+		"/C/xampp/htdocs/freelancer/campanhasdaico/wp-content/themes/daicosalesactions/style.css",
+		"/C/xampp/htdocs/freelancer/campanhasdaico/wp-content/themes/daicosalesactions/page-cart.php",
+		"/C/xampp/htdocs/freelancer/campanhasdaico/wp-content/themes/daicosalesactions/woocommerce/myaccount/dashboard.php",
+		"/C/xampp/htdocs/freelancer/campanhasdaico/wp-content/themes/daicosalesactions/woocommerce/myaccount/orders.php",
+		"/C/xampp/htdocs/freelancer/campanhasdaico/wp-content/themes/storefront/template-fullwidth.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 107.2,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\freelancer\\campanhasdaico"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" <",
+			"current_user"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sun.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
