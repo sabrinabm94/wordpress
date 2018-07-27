@@ -5,9 +5,9 @@
 *.rar
 *.zip
 *.tar
-wp-admin/
-wp-includes/
-wp-content/upgrade/
-wp-content/uploads/
+/wp-admin/
+/wp-includes/
+/wp-content/upgrade/
+/wp-content/uploads
 license.txt
 wp-config-sample.php
