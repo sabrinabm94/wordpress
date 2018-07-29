@@ -7,6 +7,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "wp-content/themes/sun/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2761,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/sun/menu.php",
+			"settings":
+			{
+				"buffer_size": 1362,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/sun/footer.php",
+			"settings":
+			{
+				"buffer_size": 977,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -19,6 +46,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: in",
 				"Package Control: Install Package"
@@ -44,10 +75,32 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group"
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/languages",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/assets"
 	],
 	"file_history":
 	[
+		"/C/Users/sabri/Downloads/Servlets-Fundamentos-de-Java-na-Web-8b9122568fee82eed1b9d97edd969dac3a776d22/src/main/java/br/com/alura/gerenciador/Empresa.java",
+		"/C/Users/sabri/Downloads/Servlets-Fundamentos-de-Java-na-Web-8b9122568fee82eed1b9d97edd969dac3a776d22/src/main/java/br/com/alura/gerenciador/Usuario.java",
+		"/C/Users/sabri/Downloads/Servlets-Fundamentos-de-Java-na-Web-8b9122568fee82eed1b9d97edd969dac3a776d22/src/main/java/br/com/alura/gerenciador/web/BuscaEmpresa.java",
+		"/C/Users/sabri/Downloads/Servlets-Fundamentos-de-Java-na-Web-8b9122568fee82eed1b9d97edd969dac3a776d22/src/main/java/br/com/alura/gerenciador/web/NovaEmpresa.java",
+		"/C/Users/sabri/Downloads/Servlets-Fundamentos-de-Java-na-Web-8b9122568fee82eed1b9d97edd969dac3a776d22/src/main/java/br/com/alura/gerenciador/dao/UsuarioDAO.java",
+		"/C/Users/sabri/Downloads/Servlets-Fundamentos-de-Java-na-Web-8b9122568fee82eed1b9d97edd969dac3a776d22/src/main/java/br/com/alura/gerenciador/dao/EmpresaDAO.java",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/plugins/advanced-custom-fields-pro/acf.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/page-contact.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/functions.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/page-about-us.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/page-home.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/assets/css/resets.css",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/page-about-us.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/sidebar.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/single.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/archive.php",
+		"/C/xampp/htdocs/repositores/wordpress/sun-dev-group/wp-content/themes/sun/page.php",
 		"/C/Users/sabri/Downloads/web.xml",
 		"/C/Users/sabri/Downloads/pom.xml",
 		"/C/Users/sabri/OneDrive/Documentos/workspace/java_api_rest/src/main/webapp/web.xml",
@@ -89,6 +142,7 @@
 		"height": 107.2,
 		"where_history":
 		[
+			"C:\\xampp\\htdocs\\repositores\\wordpress\\sun-dev-group",
 			"C:\\xampp\\htdocs\\freelancer\\campanhasdaico"
 		]
 	},
@@ -97,6 +151,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".menu ul li a",
+			"logo",
+			".menu ul li a",
+			".header .hide-mobile .menu ul li",
+			"!the",
+			"'repeater_field_name'",
+			"span",
+			"logo",
+			"sidebar_page",
 			" <",
 			"current_user"
 		],
@@ -116,8 +179,232 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/sun/assets/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2121,
+								2121
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+								"#000000ff",
+								"#212529ff",
+								"#404040ff",
+								"#767676ff",
+								"#8d93a0ff",
+								"#c8b172ff",
+								"#fdfdfdff",
+								"#ffffffff"
+							],
+							"color_helper.popup_active": false,
+							"color_helper.popup_auto": true,
+							"color_helper.preview_meta":
+							{
+								"2020":
+								[
+									2316346054613452703,
+									7,
+									"hex",
+									9079274361177015821,
+									1,
+									"1532802700.604142"
+								],
+								"2288":
+								[
+									-4795180968657660046,
+									7,
+									"hex",
+									9079274361177015821,
+									2,
+									"1532802700.824558"
+								]
+							},
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsl",
+									"hsla",
+									"rgb",
+									"hex_compressed",
+									"webcolors",
+									"rgba",
+									"hex"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".css",
+								"current_syntax": "CSS/CSS",
+								"enabled": true,
+								"last_updated": 1532802677.59,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2068.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/sun/menu.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"rgba",
+									"hex",
+									"rgb",
+									"hex_compressed",
+									"hsl",
+									"hsla",
+									"webcolors"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".php",
+								"current_syntax": "PHP/PHP",
+								"enabled": true,
+								"last_updated": 1532648522.73,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/sun/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								581,
+								586
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"rgba",
+									"hex",
+									"rgb",
+									"hex_compressed",
+									"hsl",
+									"hsla",
+									"webcolors"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".php",
+								"current_syntax": "PHP/PHP",
+								"enabled": true,
+								"last_updated": 1532648522.73,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -127,7 +414,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -198,7 +485,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 274.0,
+	"side_bar_width": 337.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

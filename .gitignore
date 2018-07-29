@@ -9,6 +9,6 @@
 wp-admin/
 wp-includes/
 wp-content/upgrade/
-wp-content/uploads
+wp-content/uploads/
 license.txt
 wp-config-sample.php
