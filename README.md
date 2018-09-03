@@ -2,9 +2,11 @@
 
 ## Repository Setup
 1. Initialize Xampp with Apach and MySQL activate
+
 For more information: noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
 
 2. Download of a Wordpress project files
+
 https://br.wordpress.org/download/
 
 3. Past the repository themes in wordpress/wp-content/themes
