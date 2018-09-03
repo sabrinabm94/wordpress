@@ -7,7 +7,7 @@ noobfrontend.wordpress.com/2018/01/14/iniciando-um-projeto-com-wordpress-org-pri
 
 2. Download of a Wordpress project files
 
-https://br.wordpress.org/download/
+br.wordpress.org/download/
 
 3. Past the repository themes in wordpress/wp-content/themes
 
@@ -15,11 +15,11 @@ https://br.wordpress.org/download/
 
 5. Edit wp-config with the database configurations
 
-https://noobfrontend.wordpress.com/2018/01/14/iniciando-um-projeto-com-wordpress-org-primeiros-passos/
+noobfrontend.wordpress.com/2018/01/14/iniciando-um-projeto-com-wordpress-org-primeiros-passos/
 
 
 ## Acess Link
-http://localhost/wordpress
+localhost/wordpress
 
 Use the acess link in your browser to go to index of repository and select one project to show
 
