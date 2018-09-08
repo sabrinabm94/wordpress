@@ -5,6 +5,7 @@
 get_header(); ?>	
 <main class="about-us">
 	<section class="section">
+		<h1 class="main-title"><?php the_title(); ?></h1>
 		<div class="text">
 			<?php
 				global $post;
@@ -17,8 +18,8 @@ get_header(); ?>
 		<div class="professionals row">
 			<?php
 				$repeater = 'professional-repeater';
-				if( have_rows($repeater) ):
-				    while ( have_rows($repeater) ) : the_row();
+				if(!is_null($repeater) && have_rows($repeater)):
+				    while (have_rows($repeater)) : the_row();
 				    	?>
 				    	<div class="col-sm-4">
 							<div class="professional">

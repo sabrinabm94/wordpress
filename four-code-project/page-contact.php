@@ -5,9 +5,13 @@
 get_header(); ?>
 <main class="main page page-contact">
 	<section class="section">
+		<h1 class="main-title"><?php the_title(); ?></h1>
 		<div class="row">
-			<div class="col-md-6">
-				<h1 class="title"><?php the_title(); ?></h1>
+			<div class="col-sm-12 col-md-6 form">
+				<h2 class="title">Send a message</h2>
+				<?php do_shortcode('[contact-form-7 id="49"]'); ?>
+			</div>
+			<div class="col-sm-12 col-md-6 contacts">
 				<?php
 					global $post;
 					$content = $post->post_content;
@@ -16,9 +20,6 @@ get_header(); ?>
 					    echo $content;
 					endif;
 				?>
-			</div>
-			<div class="col-md-6">
-				<?php do_shortcode('[contact-form-7 id="49"]'); ?>
 			</div>
 		</div>
 	</section>

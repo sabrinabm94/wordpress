@@ -1,10 +1,15 @@
 <?php
 add_filter('post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3);
 add_action('template_redirect', 'enqueue');
-add_action('widgets_init', 'register_my_sidebars');
+//add_action('widgets_init', 'register_sidebars');
 add_action('init', 'register_menus');
-add_filter('body_class', 'add_class_on_body');
+add_filter('body_class', 'add_class_body');
 
+
+if (has_post_thumbnail()) {
+	the_post_thumbnail();
+}
+	
 function enqueue() {
 	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/css/boostrap.min.css');
 	wp_enqueue_style('bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css');
@@ -17,7 +22,7 @@ function enqueue() {
 
 }
 
-function wpb_autolink_featured_images($html, $post_id, $post_image_id) {
+function wpb_autolink_featured_images($html, $post_id, $post_image_id) {	
 	if (!is_singular()) { 
 		$html = '<a href="' . get_permalink($post_id) . '" title="' . esc_attr(get_the_title($post_id)) . '">' . $html . '</a>';
 		return $html;
@@ -26,7 +31,7 @@ function wpb_autolink_featured_images($html, $post_id, $post_image_id) {
 	}
 }
 
-function register_my_sidebars() {
+function register_sidebars() {
     register_sidebar(
         array(
 	        'id' => 'sidebar_page',
@@ -59,11 +64,7 @@ function register_menus() {
 	);
 }
 
-if (has_post_thumbnail()) {
-	the_post_thumbnail();
-}
-
-function add_class_on_body($classes) {
+function add_class_body($classes) {
 	global $post;
 	if (isset( $post)) {
 		$classes[] = $post->post_type . '-' . $post->post_name;

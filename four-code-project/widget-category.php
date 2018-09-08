@@ -29,7 +29,7 @@ class widget_category extends WP_Widget {
 		}
 
 		echo '<div class="widget-banner-content">
-				<h4 class="title">' . $instance['description'] . '</h4>
+				<h5 class="title">' . $instance['description'] . '</h5>
 				<img class="img" src="' . $instance['image_url'] . '" alt="image-banner">
 				<a class="link" href="' . $instance['button_link'] . '"><button class="button mk-button mk-button--size-large mk-button--corner-rounded">'. $instance['button_title'] .'</button></a>
 			</div>

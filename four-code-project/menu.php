@@ -15,9 +15,6 @@
 	</div>
 </navbar>
 <nav class="navbar navbar-light light-blue lighten-4 hide-desk">
-    <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-    	<img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="" class="logo" />
-    </a>
     <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#menu-mobile" aria-controls="menu-mobile"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="dark-blue-text">
