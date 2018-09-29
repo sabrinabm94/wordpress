@@ -1,7 +1,16 @@
-# Acess the repositoy project
+# Repository structure
 
+## fourcode-theme
 
-## Repository Setup
+## sabrina-theme
+Theme created in docker containers.
+
+# Using the repositories projects
+
+## Initialize Xampp with Apach and MySQL activate
+noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
+
+## Repository project setup
 1. Initialize Xampp with Apach and MySQL activated
 
 noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp/
@@ -22,13 +31,20 @@ noobfrontend.wordpress.com/2018/01/14/iniciando-um-projeto-com-wordpress-org-pri
 
 7. Create the pages Homepage, About us, Contact, Archive and 404. Select the right page model foreach.
 
-## Projects acess Link
+## Acess Link
 localhost/wordpress
 
-Use the acess link in your browser to go to index of repository and select one project to show
+## Acess the projects
+Your main directory of repository needs to be in C:\xampp\htdocs.
+
+Use the acess link in your browser.
+
+Select the projects to see in the index.html file.
 
 
-# Project Structure 
-This repository is divided into 2 folders and different projects:
-* Four Code Wordpress Theme 
-* Sabrina Wordpress Theme with Docker
+### contacts
+sabrinabgbc
+
+sabrinabgbc@email.com
+
+noobfrontend.wordpress.com
