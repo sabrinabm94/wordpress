@@ -43,7 +43,7 @@ Select the projects to see in the index.html file.
 
 ---
 
-# contacts
+# Contacts
 sabrinabgbc
 
 sabrinabgbc@email.com
