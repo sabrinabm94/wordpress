@@ -1,51 +1,49 @@
 # Repository structure
 
-## fourcode-theme
-
 ## sabrina-theme
-Theme created in docker containers.
+Wordpress theme using docker container.
 
-# Using the repositories projects
+# for use the theme in your wordpress project (without docker)
+## Xampp
 
-## Initialize Xampp with Apach and MySQL activate
+### initialize Xampp with Apach and MySQL activated
 noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
 
+### htdocs directory
+Move your project repository to C:\xampp\htdocs, become C:\xampp\htdocs\wordpress.
+
+### access the project in browser
+You can access the project in your browser: localhost/wordpress
+
+
+## Wordpress
+
 ## Repository project setup
-1. Initialize Xampp with Apach and MySQL activated
 
-noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp/
-
-2. Download of a Wordpress project files
+1. Download the Wordpress
 
 br.wordpress.org/download/
 
-3. Past the wordpress files in your htdocs directory (C:\xampp\htdocs)
+2. Create one folder in the htdocs directory (C:\xampp\htdocs) and past the content of wordpress download there.
 
-4. Past the Wordpress theme in wordpress/wp-content/themes
+3. Past the Wordpress theme in C:\xampp\htdocs\wordpress\wp-content\themes
 
-5. Create a database to Wordpress project
+4. Create a database to Wordpress project
 
-6. Edit wp-config with the database configurations
+5. Edit wp-config with the database info
 
 noobfrontend.wordpress.com/2018/01/14/iniciando-um-projeto-com-wordpress-org-primeiros-passos/
 
-7. Create the pages Homepage, About us, Contact, Archive and 404. Select the right page model foreach.
+6. Create the pages Homepage, About us, Contact, Archive and 404. Select the right page model foreach in page options.
 
-## Acess Link
-localhost/wordpress
-
-## Acess the projects
-Your main directory of repository needs to be in C:\xampp\htdocs.
-
-Use the acess link in your browser.
-
-Select the projects to see in the index.html file.
 
 ---
 
-# Contacts
+# contacts
 sabrinabgbc
 
-sabrinabgbc@email.com
+sabrinabgbc@email.com | sabrinabmoreira@gmail.com
 
 noobfrontend.wordpress.com
+
+www.linkedin.com/in/sabrinabmoreira
