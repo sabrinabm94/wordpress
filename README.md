@@ -1,4 +1,4 @@
-# Repository structure
+# repository structure
 
 ## sabrina-theme
 Wordpress theme using docker container.
@@ -16,9 +16,9 @@ Move your project repository to C:\xampp\htdocs, become C:\xampp\htdocs\wordpres
 You can access the project in your browser: localhost/wordpress
 
 
-## Wordpress
+## wordpress
 
-## Repository project setup
+## repository project setup
 
 1. Download the Wordpress: br.wordpress.org/download/
 
