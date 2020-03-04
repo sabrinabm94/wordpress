@@ -1,27 +1,27 @@
-# repository structure
+# Repository structure
 
-## child-theme
+## Child theme
 A basic wordpress child theme structure to worpdress theme customization fast start.
 
-## basic-theme
+## Basic theme
 A basic wordpress theme using docker.
 
-# for use the theme in your wordpress project (without docker)
+# For use the theme in your wordpress project (without docker)
 ## Xampp
 
-### initialize Xampp with Apach and MySQL activated
+### Initialize Xampp with Apach and MySQL activated
 www.thedevblog.com.br/blog/montando-ambiente-web-com-xampp/
 
-### htdocs directory
+### Htdocs directory
 Move your project repository to C:\xampp\htdocs, become C:\xampp\htdocs\wordpress.
 
-### access the project in browser
+### Access the project in browser
 You can access the project in your browser: localhost/wordpress
 
 
-## wordpress
+## Wordpress
 
-## repository project setup
+## Repository project setup
 
 1. Download the Wordpress: br.wordpress.org/download/
 
@@ -38,9 +38,9 @@ You can access the project in your browser: localhost/wordpress
 
 ---
 
-# contacts
-Sivy
+# Contacts
+Sabrina B.
 
-sivyboing@gmail.com
+sabrinabmoreira@gmail.com
 
-www.thedevblog.com.br/
+https://www.thedevblog.com.br/
