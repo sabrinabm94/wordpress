@@ -3,8 +3,8 @@
 	template name: single
 */
 get_header(); ?>
-<main class="main page page-single">
-	<section class="section container">
+<main class="main">
+	<section class="post">
 		<div class="row">
 			<div class="col-md-8">
 				<div class="post">
@@ -34,4 +34,15 @@ get_header(); ?>
 		</div>
 	</section>
 </main>
+<!-- Google Adsense -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-6277753814725446"
+    data-ad-slot="9725549306"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+</ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <?php get_footer(); ?>
