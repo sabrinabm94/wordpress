@@ -1,48 +1,50 @@
 <?php
 /* 
-	template name: single
+	template name: singles
 */
 get_header(); ?>
-<main class="main">
-	<section class="post">
-		<div class="row">
-			<div class="col-md-8">
-				<div class="post">
-					<a href="<?php the_permalink(); ?>">
-					<?php
-						$thumb_id = get_post_thumbnail_id();
-						$thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);
-					?>
-						<div class="box-image bg" style="background-image: url(<?php echo $thumb_url[0]; ?>);"></div>
-						<h1 class="title"><?php the_title(); ?></h1>
-					</a>
-					<div class="text">
-						<?php
-							global $post;
-							$content = $post->post_content;
+<main class="main single">
+    <div class="row">
+        <section class="section col-md-8">
+            <small class="category">
+                <?php
+				$categories = get_the_category();
+				if(!empty($categories)) {
+					echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . 'Categoria: ' . esc_html( $categories[0]->name ) . '</a>';
+				}
+				?>
+            </small>
+            <h2 class="title">
+                <?php the_title(); ?>
+            </h2>
+            <?php
+				global $post;
+				$content = $post->post_content;
 
-							if ( !empty( $content ) ) :
-							    echo $content;
-							endif;
-						?>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<?php dynamic_sidebar('sidebar_page'); ?>
-			</div>
-		</div>
-	</section>
+				if ( !empty( $content ) ) :
+					?> <article class="article">
+                <?php echo $content; ?>
+            </article>
+            <?php endif; 
+			?>
+            <small class="tags">
+                <?php
+				$tags = get_tags();
+				$html = '<div class="post_tags">';
+				foreach ( $tags as $tag ) {
+					$tag_link = get_tag_link( $tag->term_id );
+				
+					$html .= "<a href='{$tag_link}' title='{$tag->name} Tag' class='{$tag->slug}'>";
+					$html .= "{$tag->name}</a>";
+				}
+				$html .= '</div>';
+				echo $html;
+				?>
+            </small>
+        </section>
+        <aside class="aside-bar col-md-4">
+            <?php dynamic_sidebar('sidebar_main'); ?>
+        </aside>
+    </div>
 </main>
-<!-- Google Adsense -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-6277753814725446"
-    data-ad-slot="9725549306"
-    data-ad-format="auto"
-    data-full-width-responsive="true">
-</ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 <?php get_footer(); ?>

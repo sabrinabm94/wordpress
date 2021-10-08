@@ -1,14 +1,25 @@
-*.sublime-workspace
-*.sublime-project
-*.png
-*.jpg
-*.gif
-*.rar
-*.zip
-*.tar
-wp-admin/
-wp-includes/
-wp-content/upgrade/
-wp-content/uploads/
-license.txt
-wp-config-sample.php
+# ignore everything in the root except the "wp-content" directory.
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/languages/
+!wp-content/themes/
+
+# ignore these plugins
+#wp-content/plugins/hello.php
+
+# ignore specific themes
+wp-content/themes/twenty*/
+
+# ignore dependency directories
+.DS_Store
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite

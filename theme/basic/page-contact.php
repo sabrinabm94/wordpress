@@ -3,24 +3,31 @@
 	template name: contact
 */
 get_header(); ?>
-<main class="main page page-contact">
-	<section class="section">
-		<div class="row">
-			<div class="col-md-6">
-				<h1 class="title"><?php the_title(); ?></h1>
-			</div>
-			<div class="col-md-6">
-				<?php
+<main class="main contact">
+    <div class="row">
+        <div class="col-md-8">
+            <section class="section">
+                <h2 class="title">
+                    <?php the_title(); ?>
+                </h2>
+                <?php
 					global $post;
 					$content = $post->post_content;
 
-					if ( !empty( $content ) ) :
-					    echo $content;
-					endif;
+					if( !empty( $content ) ) :?>
+                <article class="article">
+                    <?php echo $content; ?>
+                </article>
+                <?php endif; 
 				?>
-				<?php do_shortcode('[contact-form-7 id="32"]'); ?>
-			</div>
-		</div>
-	</section>
+            </section>
+            <section class="form">
+                <?php do_shortcode('[contact-form-7 id="1"]'); ?>
+            </section>
+        </div>
+        <aside class="aside-bar col-md-4">
+            <?php dynamic_sidebar('sidebar_main'); ?>
+        </aside>
+    </div>
 </main>
 <?php get_footer(); ?>

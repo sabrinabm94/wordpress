@@ -4,9 +4,9 @@
   add_filter('post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3);
 
   if (has_post_thumbnail()) {
-	the_post_thumbnail();
-   }
-
+	  the_post_thumbnail();
+  }
+  
   function scripts() {
       $parenthandle = 'parent-style';
       $theme = wp_get_theme();
@@ -20,7 +20,6 @@
         array($parenthandle),
         $theme->get('Version')
       );
-
+      
       wp_enqueue_script('script-js', get_stylesheet_directory_uri() . '/assets/js/scripts.js', array ('jquery'), 1.1, true);
   }
-?>
