@@ -10,7 +10,6 @@ A basic wordpress theme using docker.
 ## Xampp
 
 ### Initialize Xampp with Apach and MySQL activated
-www.thedevblog.com.br/blog/montando-ambiente-web-com-xampp/
 
 ### Htdocs directory
 Move your project repository to C:\xampp\htdocs, become C:\xampp\htdocs\wordpress.
