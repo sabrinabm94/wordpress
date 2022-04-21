@@ -38,9 +38,6 @@ You can access the project in your browser: localhost/wordpress
 
 ---
 
-# Contacts
+# Contact
 Sabrina B.
-
-sabrinabmoreira@gmail.com
-
-https://www.thedevblog.com.br/
+sabrinabm94@gmail.com
