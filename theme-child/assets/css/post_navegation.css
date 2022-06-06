@@ -1,0 +1,9 @@
+.post-navegation {
+    background-color: #F6F8FA;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.post-navegation .post-navegation-list li {
+    margin-bottom: 20px;
+}

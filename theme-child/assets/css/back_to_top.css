@@ -1,0 +1,19 @@
+.back-to-top {
+    width: 56px;
+    height: 56px;
+    top: -25px;
+    background-color: #E1E6E9;
+    border-radius: 100%;
+    right: 5%;
+    z-index: 1;
+}
+
+.back-to-top i {
+    left: 23px;
+    top: 20px;
+    color: #272E3B;
+}
+
+.back-to-top, .back-to-top i {
+    position: absolute;
+}
