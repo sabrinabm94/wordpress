@@ -1,7 +1,7 @@
-function progressBar(element, $) {
+function progressBar(element, pageToShow, $) {
   let progress = $(".progress-bar-container .progress");
 
-  if(progress && element) {
+  if($(element).length > 0 && $(pageToShow).length > 0 && progress.length > 0) {
     $(window).scroll(function() {
 
       let documentElement = $(element)[0];

@@ -1,4 +1,4 @@
 jQuery(document).ready(function ($) {
-    progressBar(".post .content", $);
+    progressBar(".page-single .main-post", ".page-single", $);
     postNavegation(".post .content", ".post-navegation .post-navegation-list", $);
 });
