@@ -19,7 +19,7 @@ wp-content/themes/twenty*/
 .DS_Store
 node_modules/
 
-# ignore log files and databases
+# ignore log files
 *.log
-*.sql
 *.sqlite
+.DS_Store

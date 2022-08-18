@@ -1,0 +1,69 @@
+services:
+  db:
+    container_name: wordpress-db
+    image: mariadb:10.6.4-focal
+    command: '--default-authentication-plugin=mysql_native_password'
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./create_database.sql:/app/create_database.sql
+    restart: always
+    working_dir: /app
+    environment:
+      - MARIADB_ROOT_PASSWORD=${ROOT_DB_PASSWORD}
+      - MARIADB_ROOT_HOST=${DB_HOST}
+      - MARIADB_DATABASE=${DB_NAME}
+      - MARIADB_USER=${DB_USER}
+      - MARIADB_PASSWORD=${DB_PASSWORD}
+    env_file: 
+      - .env
+    expose:
+      - ${DB_PORT}
+      - 33060
+
+  wordpress:
+    container_name: wordpress-cms
+    image: wordpress:latest
+    depends_on:
+      - db
+    ports:
+      - ${LOCALHOST_PORT}:${DEFAULT_PORT}
+    restart: always
+    volumes:
+      - wp_data:/var/www/html
+      - ./uploads:/var/www/html/wp-content/uploads
+      - ./languages:/var/www/html/wp-content/languages
+      - ./themes/basicblog:/var/www/html/wp-content/themes/basicblog
+      - ./themes/basicblogchild:/var/www/html/wp-content/themes/basicblogchild
+    environment:
+      - WORDPRESS_DB_HOST=${DB_HOST}
+      - WORDPRESS_DB_NAME=${DB_NAME}
+      - WORDPRESS_DB_USER=${DB_USER}
+      - WORDPRESS_DB_PASSWORD=${DB_PASSWORD}
+      - WORDPRESS_TABLE_PREFIX=${DB_TABLE_PREFIX}
+    env_file: 
+      - .env
+
+  wordpress-cli:
+    container_name: wordpress-cli
+    depends_on:
+      - db
+      - wordpress
+    image: wordpress:cli
+    user: ${WORDPRESS_CLI_USER}
+    command: bash -c './install_plugins.sh && ./install_themes.sh'
+    volumes:
+      - wp_data:/var/www/html
+      - ./install_plugins.sh:/var/www/html/install_plugins.sh
+      - ./install_themes.sh:/var/www/html/install_themes.sh
+    environment:
+      - WORDPRESS_DB_HOST=${DB_HOST}
+      - WORDPRESS_DB_NAME=${DB_NAME}
+      - WORDPRESS_DB_USER=${DB_USER}
+      - WORDPRESS_DB_PASSWORD=${DB_PASSWORD}
+      - WORDPRESS_TABLE_PREFIX=${DB_TABLE_PREFIX}
+    env_file: 
+      - .env
+  
+volumes:
+  db_data:
+  wp_data:

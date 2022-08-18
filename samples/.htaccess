@@ -1,0 +1,77 @@
+# BEGIN All In One WP Security
+#AIOWPS_DEBUG_LOG_BLOCK_HTACCESS_RULES_START
+<Files debug.log>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+<IfModule mod_headers.c>
+Header set X-Content-Type-Options nosniff
+</IfModule>
+#AIOWPS_DEBUG_LOG_BLOCK_HTACCESS_RULES_END
+
+#AIOWPS_BLOCK_SPAMBOTS_START
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{REQUEST_URI} ^(.*)?wp-comments-post\.php(.*)$
+RewriteCond %{HTTP_REFERER} !^http(s)?://dheka.com.br [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule .* http(s)?://dheka.com.br [L]
+
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - [F,L]
+RewriteRule !^wp-includes/ - [S=3]
+RewriteRule ^wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F,L]
+RewriteRule ^wp-includes/theme-compat/ - [F,L]
+</IfModule>
+#AIOWPS_BLOCK_SPAMBOTS_END
+# END All In One WP Security
+
+#CUSTOM
+<FilesMatch "(admin-ajax\.php|media-upload\.php|async-upload\.php|wp-cron\.php|xmlrpc\.php)$">
+  order allow,deny
+  allow from all
+  satisfy any
+</FilesMatch>
+
+<FilesMatch "\.(jpg|jpeg|jpe|gif|png|bmp|tif|tiff)$">
+order deny,allow
+allow from all
+</FilesMatch>
+
+<FilesMatch "\.(php|php\.)(.+)(\w|\d)$">
+order allow,deny
+deny from all
+</FilesMatch>
+
+<Files wp-config.php>
+order allow,deny
+deny from all
+</Files>
+
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+#END CUSTOM
+
+# BEGIN WordPress
+# As diretrizes (linhas) entre "BEGIN WordPress" e "END WordPress" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
