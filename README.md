@@ -28,13 +28,13 @@ Http://localhost:5000
 ## Setup without Docker
 https://www.notion.so/Como-montar-um-ambiente-local-Wordpress-cc361c728e4c4459a2e858a08d4105c8
 
----
+--
 
 ## Contact
 
 - More about me
 
-[![About me](https://github.com/sabrinabm94/about/blob/main/ABOUT.md)
+[About me](https://github.com/sabrinabm94/about/blob/main/ABOUT.md)
 
 - See my portfolio!
 
